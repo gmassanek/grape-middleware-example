@@ -18,7 +18,6 @@ module Api
 
     format :json
 
-
     resource :foo do
       get do
         Middleware.count
